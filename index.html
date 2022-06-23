@@ -6,10 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shawn's Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
-
+    
+        
 </head>
 <body>
-    <p>Hello World</p>
-    <p>Welcome to my web page!</p>
+    <nav>
+         <ul>
+            <li>Shawn's Portfolio</li>
+            <li><a href="https://codingtemple.com/">-Coding Temple -</a></li>
+            <li><a href="https://codingtemple.github.io/python/week3/html_and_css_design_and_build_websites.pdf">-Learn HTML-</a></li>
+            <li><a href="https://www.w3schools.com/css/default.asp">-Learn CSS-</a></li>
+            <li><a href="https://matias.ma/nsfw/">-Little Bit of Humor-</a></li>
+         </ul>
+    </nav>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font: size 50px;">Shawn Manley</h1>
+            <p>Future Coding Temple Alunmi</p>
+       </div> 
+    </div>
+    <main>
+        <div id="main">
+            <article class="main-articles">
+                <h1>About Me</h1>
+                <strong><small>Summarized</strong>
+                <p>I was born and raised in Texas, still live here too. I am half Mexican, half white which played a big part in my endeavors growing up. My great grandma couldn't speak english and lived with my grandma. She would talk to us for hours anyways though, which is also important to mention that I don't speak spanish either. So to get closer to her I started playing mariachi so I can get closer to her with music and the songs she grew up with. Long story short I like to play the guitar and a few other instruments. I like working out and cooking also. I couldn't make this portfolio too fancy though because everything I did was within short notice from me moving and being placed into this class, so I am really sorry to how close it is to the step by step. But I did try to make some adjustments. Oh! And I know he had mountains but this was a picture from when I went to the Grand Canyon last year! </p>
+            </article>
+            <article class="main-articles">
+                <h1>Why I Chose Coding</h1>
+                <strong><small>The Big Why</strong>
+                <p>To be quite honest I jump into a lot of different things because I love to learn new topics and ways to make money, and it's always really exciting when I can implement them. Before I moved and bought my ticket into this course I did stocks and crypto which I was decent at, however the learning curve costs a lot of pain initially. My old coworker was telling me about this course and I realized that I could constantly keep learning but never know everything. I like the challenge that presents. Also, this course and the knowledge that I can absorb here is a huge step out of the industry I currently work in, which excites me.</p>
+
+            </article>
+            <article class="main-articles">
+                <h1>Opportunity</h1>
+                <strong><small>Challenges and Chances</strong>
+                <p>I mentioned before that I like challenges. I feel the need to elaborate on that a bit more. The reason why I like the challenges this industry presents is more directed towards the lack of knowledge than the knowledge learned itself. I currently work in inventory as a lead/trainer, and have corrected multiple warehouses' inventory. The situation that I seem to come across the most, is that there is a lack of progression within companies once you learn enough to succeed and do well within your department. Reason being is that they want to keep you where it benefits them. I mentioned doing this course to one of the corporate people at my work and they already started to talk about getting me in their department. This course has already started opening doors for me within my career that weren't open before. The fact that I won't ever learn everything there is to coding is exciting too. I'm excited for the opportunities to come from learning here.</p>
+            </article>
+        </div>
+        <div id="side">
+            <article class="side-articles" id="profile">
+                <img id="profile-image" src=images/me.jpg width="50%" height="50%"
+                <div id="profile-details">
+                    <h2>Shawn Manley</h2>
+                    <ul>
+                        <li><b>Hobbies As Mentioned:</b></li>
+                        <li>Cooking</Li>
+                        <li>Working Out</Li>
+                        <li>Music/Instruments</Li>
+                        <li><a href="mailto:esmanley22@gmail.com">esmanley22@gmail.com</a></Li>
+                    </ul>
+                
+            </article>
+            <article class="side-articles">
+                <h1>Thank You</h1>
+                <strong><small>(In Advance)</strong>
+                <p>I wanted to say thank you in advance for giving me the opportunity to learn here, and I appreciate the knowledge I will gain from Coding Temple. Looking forward to the course!</p>
+            </article>
+            <article class="side-articles">
+                <h1>Contact Me</h1>
+                <strong><small>Please contact me with questions</small></strong>
+                <br>
+                <form action="mailto:johnd@gmail.com" method="POST">
+                    <label for="name"><strong>Name</strong></label>
+                    <br>
+                    <input type="text" id="name" placeholder="Your Name">
+                    <br>
+                    <label for="body"><strong>Message</strong></label>
+                    <br>
+                    <textarea placeholder="Your message" rows="5"></textarea>
+                </div>
+                <br>
+                <button type="submit">Submit</button>
+                </form>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <div>
+            &copyShawn Manley 2022
+        </div>
+    </footer>
+
 </body>
 </html>
